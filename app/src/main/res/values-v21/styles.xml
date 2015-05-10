@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="AppTheme.Base">
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+
+        <!-- No translucent status bar -->
+        <item name="android:windowTranslucentStatus">false</item>
+    </style>
+
+    <!-- Style for the snack bar -->
+    <style name="UndoBar" parent="@style/UndoBarMaterialStyle">
+        <item name="buttonStyle">@style/UndoBarButton</item>
+        <item name="messageStyle">@style/UndoBarMessage</item>
+    </style>
+
+    <style name="UndoBarMessage" parent="@style/UndoBarMessageMaterial">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="UndoBarButton" parent="@style/UndoBarButtonMaterial">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+</resources>

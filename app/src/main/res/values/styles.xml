@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="AppTheme.Base"/>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="undoBarStyle">@style/UndoBar</item>
+    </style>
+
+    <!-- Style for the snack bar -->
+    <style name="UndoBar" parent="@style/UndoBarMaterialStyle">
+        <item name="buttonStyle">@style/UndoBarButton</item>
+        <item name="messageStyle">@style/UndoBarMessage</item>
+    </style>
+
+    <style name="UndoBarMessage" parent="@style/UndoBarMessageMaterial">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="UndoBarButton" parent="@style/UndoBarButtonMaterial">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+</resources>

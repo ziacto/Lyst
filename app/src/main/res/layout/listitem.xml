@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listitem"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight">
+
+    <LinearLayout
+        android:id="@+id/listwrapper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom"
+        android:padding="0dp"
+        android:clipToPadding="true"
+        android:clipChildren="true"
+        >
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:id="@+id/listbuttonripple"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="58dp"
+        android:layout_height="62dp"
+        app:rippleOverlay="false"
+        app:rippleColor="#585858"
+        app:rippleAlpha="0.2"
+        app:rippleDuration="200"
+        app:rippleHover="true"
+        app:rippleDelayClick="false">
+
+        <ToggleButton
+            android:id="@+id/listbutton"
+            android:layout_alignParentLeft="true"
+            android:layout_width="58dp"
+            android:layout_height="62dp"
+
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:drawableLeft="@drawable/checkbox_selector_red"
+            android:drawablePadding="16dp"
+
+            android:button="@null"
+            android:background="@android:color/transparent"
+            android:onClick="completeTask"
+            android:text=""
+            android:textOn=""
+            android:textOff=""
+        />
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:id="@+id/listtextripple"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_toRightOf="@id/listbuttonripple"
+
+        app:rippleOverlay="false"
+        app:rippleColor="#585858"
+        app:rippleAlpha="0.2"
+        app:rippleDuration="200"
+        app:rippleHover="true"
+        app:rippleDelayClick="false">
+
+        <TextView
+            android:id="@+id/listtext"
+            android:layout_width="fill_parent"
+            android:layout_height="62dp"
+            android:paddingLeft="4dp"
+            android:gravity="center_vertical"
+
+            android:textSize="17sp"
+            android:text="Test Checkbox"
+            android:onClick="updateTask"
+            android:clickable="true"/>
+    </com.balysv.materialripple.MaterialRippleLayout>
+    </LinearLayout>
+
+</RelativeLayout>
