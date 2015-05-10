@@ -1,5 +1,9 @@
 Lyst
 ===========
+
+![Launcher Icon](/app/src/main/res/drawable-xxhdpi/logo_splash.png)
+
+
 Lyst is a minimalist todo list for managing your tasks, based on Google's Material Design Standards. 
 
 Lightweight and not RAM Heavy, helps you clear all tasks with ease.
