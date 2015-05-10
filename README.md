@@ -20,7 +20,37 @@ Current Features -
 
 
 
-Release Version - "Tangelo"
+***Release Version - "Tangelo"***
+
+
+
+
+# Authors and Contributors
+
+Everything used in this project is Open Source.
+
+Thanks to -
+
+* [Oleksandr Melnykov](https://github.com/makovkastar) For [Floating Action Button](https://github.com/makovkastar/FloatingActionButton)
+
+* [Balys Valentukevicius](https://github.com/balysv) For [Material Ripple](https://github.com/balysv/material-ripple)
+
+* [Liao Kai](https://github.com/soarcn) For [Undo Bar](https://github.com/soarcn/UndoBar)
+
+* [Aidan Follestad](https://github.com/afollestad) For [Material Dialogs](https://github.com/afollestad/material-dialogs)
+
+
+
+
+
+# Downloads
+
+Latest successful builds can be downloaded here
+
+Lyst v.1.0 [Codename - Tangelo] - [DOWNLOAD](https://www.dropbox.com/s/7706crdgmdceb5x/Lyst%20%5B1.0%20Codename%20Tangelo%5D.apk?dl=0)
+
+
+
 
 
 License
