@@ -1,15 +1,7 @@
-language: android
-android:
-  components:
-    - build-tools-21.1.0
-    - android-21
-    - extra
-
-
-before_script:
-  # Create and start emulator
-  - chmod +x gradlew
-  - echo no | android create avd --force -n test -t android-21 --abi armeabi-v7a
-  - emulator -avd test -no-skin -no-audio -no-window &
-
-
+language: java
+jdk:
+  - oraclejdk7
+  - openjdk7
+ 
+before_install:
+ - chmod +x gradlew
