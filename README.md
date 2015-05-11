@@ -1,7 +1,12 @@
 Lyst
 ===========
 
+
+
 ![Launcher Icon](/app/src/main/res/drawable-xxhdpi/logo_splash.png)
+
+
+[![Build Status](https://travis-ci.org/balzathor/Lyst.svg?branch=master)](https://travis-ci.org/balzathor/Lyst)
 
 
 Lyst is a minimalist todo list for managing your tasks, based on Google's Material Design Standards. 
