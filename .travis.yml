@@ -1,7 +1,12 @@
-language: java
-jdk:
-  - oraclejdk7
-  - openjdk7
- 
-before_install:
- - chmod +x gradlew
+language: android
+
+script: "./gradlew build"
+
+android:
+  components:
+    - build-tools 21.1.0
+    - sys-img-armeabi-v7a-android-21
+    - android-21
+    - extra
+    
+script: "./gradlew testDebug"
