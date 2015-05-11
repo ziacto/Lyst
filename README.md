@@ -6,7 +6,6 @@ Lyst
 ![Launcher Icon](/app/src/main/res/drawable-xxhdpi/logo_splash.png)
 
 
-[![Build Status](https://travis-ci.org/balzathor/Lyst.svg?branch=master)](https://travis-ci.org/balzathor/Lyst)
 
 [ ![Codeship Status for balzathor/Lyst](https://codeship.com/projects/9023ea90-d9e7-0132-d5c4-5ed1a95e5c2d/status?branch=master)](https://codeship.com/projects/79112)
 
